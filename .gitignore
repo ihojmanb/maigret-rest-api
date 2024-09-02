@@ -1,1 +1,76 @@
 *.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# macOS specific files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Test coverage reports
+htmlcov/
+*.cover
+*.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to ensure they are not
+# accidentally added to source control.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# Environments
+env/
+venv/
+.venv
+ENV/
+ENV.bak/
+venv.bak/
+
+# Pycharm specific
+.idea/
+.vscode/

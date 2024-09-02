@@ -1,0 +1,1 @@
+from .maigret_wrapper import getJSONreportForUsername
