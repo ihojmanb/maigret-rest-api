@@ -33,7 +33,7 @@ def generate_json_report(results: dict):
         else:
             all_json[sitename] = data
 
-    return json.dumps(all_json)
+    return all_json
 
 def set_logger():
     logger = logging.getLogger('maigret')
@@ -77,12 +77,11 @@ async def getJSONreportForUsername(username: str):
     return json_results
 
 
-def main():
+async def main():
     username = 'ihojmanb'
-    found_results = search_by_username(username)
+    found_results = await search_by_username(username)
     json_results = generate_json_report(found_results)
     print(json_results)
 
-
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    asyncio.run(main())
