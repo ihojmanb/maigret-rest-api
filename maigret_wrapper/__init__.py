@@ -1,1 +1,1 @@
-from .maigret_wrapper import getJSONreportForUsername
+from .maigret_wrapper import getJSONreportForUsername, searchMultipleUsernames

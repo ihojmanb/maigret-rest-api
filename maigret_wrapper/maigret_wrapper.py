@@ -77,6 +77,13 @@ async def getJSONreportForUsername(username: str):
     return json_results
 
 
+async def searchMultipleUsernames(usernames: list):
+    list_of_json_results = []
+    for username in usernames:
+        json_results = await getJSONreportForUsername(username)
+        list_of_json_results.append(json_results)
+    return list_of_json_results
+
 async def main():
     username = 'ihojmanb'
     found_results = await search_by_username(username)
