@@ -4,10 +4,8 @@
 
 A minimal REST API for making queries with Maigret OSINT library.
 
-It currently support one query at a time for one username.
+You can query one or multiple usernames.
 
-## TODO
-* add querying multiple usernames 
 
 ## Installation
 
