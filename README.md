@@ -39,4 +39,8 @@ You can query one or multiple usernames.
 ```bash
 GET http://127.0.0.1:8000/username/some_username
 ```
+3. to get multiple usernames data:
+```bash
+GET http://127.0.0.1:8000/usernames/?username=someuser1&username=someuser2&...&username=someuserN
+```   
 
